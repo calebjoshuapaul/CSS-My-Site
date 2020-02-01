@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: "Sacramento", sans-serif;
+  font-size: 5.625rem;
+  margin: 20px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6f6;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.topContainer {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.subtitle {
+  margin-bottom: 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.design-img {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.develop-img {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright-msg {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0 10px;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: -webkit-gradient(linear, left top, left bottom,
+      from(#42aaff),
+      to(#003366));
+  background: linear-gradient(top,
+      #42aaff 0%,
+      #003366);
+  border-radius: 10px;
+  border: 1px solid #003366;
+  box-shadow:
+    0px 1px 3px rgba(000, 000, 000, 0.5),
+    inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  text-shadow:
+    0px -1px 0px rgba(000, 000, 000, 0.7),
+    0px 1px 0px rgba(255, 255, 255, 0.3);
+}
